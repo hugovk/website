@@ -18,7 +18,7 @@ build:
     # golang: "1.23"
 
   commands:
-    - apt install pipx
+    - pip install pipx
     - pipx ensurepath
     - npm install -g pnpm@latest-10
     - make install
